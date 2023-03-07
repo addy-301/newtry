@@ -65,6 +65,7 @@ function finalCheck()
         ans1.innerText="Password Identical"
         ans1.style.color="green"
         ans1.style.fontWeight="900"
+        create()
     }
 }
 
@@ -75,21 +76,11 @@ function clear1()
     ans1.innerText=""
 }
 
-
-// let prevans=document.querySelector("#npwd")
-// console.log(prevans.value)
-// if(flag1==1 && flag2==1)
-// {
-// console.log(document.querySelector("#npwd").value)
-// console.log(document.querySelector("#cpwd").value)
-// }
-
-// if(prevans==currans)
-// {
-//     let btn=document.createElement("button")
-//     btn.innerText="Submit Now"
-//     btn.setAttribute("id","btn1")
-//     console.log(btn)
-//     let ins1=document.querySelector(".log")
-//     ins1.appendChild(btn)
-// }
+function create()
+{
+    let btn=document.createElement("button")
+    let ins=document.querySelector(".log")
+    btn.innerText="LOG IN"
+    btn.setAttribute("id","btn1")
+    ins.appendChild(btn)
+}

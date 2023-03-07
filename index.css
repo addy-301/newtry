@@ -1,0 +1,77 @@
+.container
+{
+    margin:auto;
+    width:700px;
+    height:700px;
+    border: 2px solid #222c3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222c3d;
+}
+h1
+{
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+}
+#test1,#test2,#npwd,#cpwd
+{
+    padding:20px 25px;
+    width:280px;
+    box-shadow:0px 0px 5px #222c3d;
+    font-family: cursive;
+    font-size: 16px;
+    color:white;
+    font-weight: 300;
+    background: #141d2b;
+    outline: none;
+    border: #141d2b;
+    text-align: start;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: .2s ease-in;
+}
+.check,.checkpwd
+{
+    position: relative;
+    top:-30px;
+}
+#test2
+{
+    position: relative;
+    top:0px;
+}
+#test1:focus,#test2:focus,#npwd:focus,#cpwd:focus
+{
+    
+    box-shadow: 0px 0px 5px rgb(5, 252, 5),
+                1px 1px 5px  rgb(5, 252, 5),
+                0px -1px 5px  rgb(5, 252, 5),
+                0px 1px 5px  rgb(5, 252, 5);
+}
+#btn1
+{
+    position: relative;
+    top:-30px;
+    border: none;
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #141d2b;
+    width:200px;
+    padding:10px 0px;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    letter-spacing: 1px;
+}
+#btn1:hover
+{
+    box-shadow: 0px 0px 5px rgb(5, 252, 5),
+                1px 1px 5px  rgb(5, 252, 5),
+                0px -1px 5px  rgb(5, 252, 5),
+                0px 1px 5px  rgb(5, 252, 5);
+}
+
